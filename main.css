@@ -17,23 +17,23 @@ body, input, textarea {
 
 header{
     padding: 16px 0;
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #32df32;
+    color: #162022;
 }
 
 header nav li {
     display: inline;
-    margin-left: 16px;
-    font-size: 18px;
+    margin-left: 14px;
+    font-size: 16px;
 }
 
 header nav li a {
-    color: #ecf0f1;
+    color: #162022;
     text-decoration: none;
 }
 
 .container{
-    max-width: 1280px;
+    max-width: 1380px;
     width: 100%;
     margin: 0 auto;
 }
@@ -46,12 +46,12 @@ section .container  {
 }
 
 .brands-list img{
-    height: 24px;
+    height: 67px;
 }
 
 .brands-list li {
     display: inline;
-    margin-right: 8px;
+    margin-right: 14px;
 }
 
 section .container {
@@ -68,7 +68,7 @@ section h2 {
 }
 
 section {
-    color: #182C61;
+    color: #162022;
 }
 
 section p {
@@ -85,7 +85,7 @@ section p {
 
 .social-links li {
     display: inline;
-    margin-right: 8px;
+    margin-right: 14px;
 }
 
 .social-links li a {
@@ -97,16 +97,18 @@ section p {
 }
 
 #div-contato {
-    margin-left: 18%;
+    margin-left: 0;
 }
 
 #contato-metodo {
-    margin-left: 13%;
+    /* margin-left: auto; */
+    margin-right: 32px;
 }
 
 .contact-methods {
     display: -ms-inline-grid;
     justify-content: space-between;
+    margin-left: -130px;
 }
 
 form input,
@@ -129,8 +131,8 @@ section h3 {
 }
 
 form button {
-    background-color: #182C61;
-    color: #fff;
+    background-color: #32df32;
+    color: #131111;
     border: none;
     cursor: pointer;
 }
@@ -144,7 +146,7 @@ input: :focus, textarea:focus{
 }
 
 footer {
-    background-color: #182C61;
-    color: #ecf0f1;
+    background-color: #32df32;   
+    color: #131111;
     padding: 16px 0;
 }
